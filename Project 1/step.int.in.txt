@@ -1,0 +1,47 @@
+// This demonstrates how you can step through a linked list
+new
+// This accesses the head and begins testing it
+begin
+	// You don't need the indents, but it's
+	// to show we're testing the nodes
+	next0     // next() should return nullptr
+        previous  // move to the previous node
+	previous0 // previous() should now return nullptr
+exit
+// We are now back to testing the linked list
+size 0
+push_front 7
+push_front 3
+push_back 9
+push_back 11
+size 4
+begin
+	// Let's walk through the linked list
+	// We are now at the head sentinel
+	value 3
+	next
+	value 7
+	next
+	value 9
+	next
+	value 11
+	next
+	// We are now at the tail sentinel
+	next0
+	
+	// Let's walk back through the linked list
+	previous
+	value 11
+	previous
+	value 9
+	previous
+	value 7
+	previous
+	value 3
+	previous
+	previous0
+exit
+delete
+// The addresses will differ and amounts may differ when you execute this
+details
+exit

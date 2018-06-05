@@ -1,0 +1,63 @@
+Starting Test Run
+1 % // This demonstrates how you can step through a linked list
+2 % Okay
+3 % // This accesses the head and begins testing it
+4 % Okay
+5 % // You don't need the indents, but it's
+6 % // to show we're testing the nodes
+7 % Okay
+8 % // next() should return nullptr
+9 % Okay
+10 % // move to the previous node
+11 % Okay
+12 % // previous() should now return nullptr
+13 % Okay
+14 % // We are now back to testing the linked list
+15 % Okay
+16 % Okay
+17 % Okay
+18 % Okay
+19 % Okay
+20 % Okay
+21 % Okay
+22 % // Let's walk through the linked list
+23 % // We are now at the head sentinel
+24 % Okay
+25 % Okay
+26 % Okay
+27 % Okay
+28 % Okay
+29 % Okay
+30 % Okay
+31 % Okay
+32 % // We are now at the tail sentinel
+33 % Okay
+34 % // Let's walk back through the linked list
+35 % Okay
+36 % Okay
+37 % Okay
+38 % Okay
+39 % Okay
+40 % Okay
+41 % Okay
+42 % Okay
+43 % Okay
+44 % Okay
+45 % Okay
+46 % Okay
+47 % // The addresses will differ and amounts may differ when you execute this
+48 % SUMMARY OF MEMORY ALLOCATION:
+  Memory allocated:   168
+  Memory deallocated: 168
+
+INDIVIDUAL REPORT OF MEMORY ALLOCATION:
+  Address  Using  Deleted  Bytes   
+  0x237b0a0  new       Y        24
+  0x237b0c0  new       Y        24
+  0x237b0e0  new       Y        24
+  0x237b290  new       Y        24
+  0x237b2e0  new       Y        24
+  0x237b330  new       Y        24
+  0x237b380  new       Y        24
+49 % Okay
+Finishing Test Run

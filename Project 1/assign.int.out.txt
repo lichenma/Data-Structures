@@ -1,0 +1,50 @@
+Starting Test Run
+1 % Okay
+2 % Okay
+3 % Okay
+4 % Okay
+5 % Okay
+6 % // We will now assign this list to a new node
+7 % // Once we execute the assign command, we are testing
+8 % // the object which is assigned the value of the linked
+9 % // list we created above
+10 % Okay
+11 % Okay
+12 % Okay
+13 % Okay
+14 % Okay
+15 % Okay
+16 % Okay
+17 % // We must now delete this newly created object
+18 % Okay
+19 % // We will now go back to testing the original object
+20 % Okay
+21 % // It should not have changed
+22 % Okay
+23 % Okay
+24 % Okay
+25 % // The addresses will differ when you execute this
+26 % SUMMARY OF MEMORY ALLOCATION:
+  Memory allocated:   408
+  Memory deallocated: 408
+
+INDIVIDUAL REPORT OF MEMORY ALLOCATION:
+  Address  Using  Deleted  Bytes   
+  0x8d9a0a0  new       Y        24
+  0x8d9a0c0  new       Y        24
+  0x8d9a0e0  new       Y        24
+  0x8d9a170  new       Y        24
+  0x8d9a190  new       Y        24
+  0x8d9a1e0  new       Y        24
+  0x8d9a230  new       Y        24
+  0x8d9a280  new       Y        24
+  0x8d9a2a0  new       Y        24
+  0x8d9a2c0  new       Y        24
+  0x8d9a2e0  new       Y        24
+  0x8d9a300  new       Y        24
+  0x8d9a320  new       Y        24
+  0x8d9a340  new       Y        24
+  0x8d9a360  new       Y        24
+  0x8d9a380  new       Y        24
+27 % Okay
+Finishing Test Run
